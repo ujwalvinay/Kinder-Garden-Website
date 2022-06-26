@@ -60,7 +60,7 @@ h5
     color: #3AB0FF;
     font-weight: 600;
 }
-p
+.banner-row p
 {
     font-size: 15px;
     width: 90%;
@@ -77,6 +77,129 @@ p
     }
     .banner-row h1
     {
-        
+        text-align: center;
+        margin: auto;
+        width: 60vw;
+        font-size: ;
     }
+    .navbar-brand
+    {
+        font-size: clamp(1rem, 2.5vw, 2rem) ;
+    }
+    .col-lg-5 p
+    {
+        text-align: center;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .col-lg-5 h5
+    {
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+    .contact-flex
+    {
+        justify-content: center;
+    }
+}
+@media screen and (max-width:576px) {
+    .banner-row h1
+    {
+        width: 80%;
+        font-size: 35px;
+        font-weight: 700;
+        padding: 1rem 0;
+    }
+}
+
+/* Service section */
+.col-lg-4
+{
+    padding: 2rem 3rem;
+}
+.grid-icons
+{
+    width: 30px;
+    text-align: center;
+    margin: auto;
+}
+.service-section h3
+{
+    font-weight: 600;
+}
+.service-section h5
+{
+    margin: auto;
+    padding: 5px 0;
+}
+.service-section p
+{
+    width: 80%;
+    margin: auto;
+}
+.service-section a
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+.service-section
+{
+    background-color: aliceblue;
+    padding: 2rem 0;
+}
+
+/* About Section */
+.about h3
+{
+    font-weight: 600;
+}
+.about-us p
+{
+    width: 100%;
+}
+.about-us
+{
+    padding: 3rem;
+    margin: auto;
+}
+
+/* About Grid */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 3; }
+    .div2 { grid-area: 1 / 3 / 2 / 6; }
+    .div3 { grid-area: 2 / 3 / 3 / 6; }
+
+.about-grid-img
+{
+    width: 86%;
+}
+.about-grid-img-1
+{
+    width: 100%;
+    border-radius:10px 0 0  10px ; 
+}
+.about-grid
+{
+    padding: 0rem 5rem;
+    width: 80%;
+    margin: auto;
+}
+#img1
+{
+    
+    border-radius:0 10px 0 0;
+}
+#img-2
+{
+    
+    border-radius:0 0  10px 0;
 }
